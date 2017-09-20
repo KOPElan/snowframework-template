@@ -1,0 +1,27 @@
+{
+  "name": "snowframework-template",
+  "version": "1.0.0",
+  "description": "snowframework web template",
+  "main": "index.js",
+  "dependencies": {
+    "snowframework": "^0.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KOPElan/snowframework-template.git"
+  },
+  "keywords": [
+    "snowframework",
+    "mvc"
+  ],
+  "author": "KOPElan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KOPElan/snowframework-template/issues"
+  },
+  "homepage": "https://github.com/KOPElan/snowframework-template#readme"
+}

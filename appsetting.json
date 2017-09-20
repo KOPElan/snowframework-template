@@ -1,0 +1,17 @@
+{
+    "app":{
+        "environment":"development"
+    },
+    
+    "server": {
+        "port": "8089"
+    },
+
+    "router": {
+        "default": "home",
+        "error": "/shared/error.html",
+        "controllers": "./controllers",
+        "views": "./views",
+        "root": "./wwwroot"
+    }
+}
