@@ -1,11 +1,14 @@
-const app=require('snowframework');
+var action=require('snowframework-action');
 
 const homeController = {
-    indexAction: function (req, res) {
-        app.response.view('/home/index.html', res);
+    indexAction: function (req) {                        
+        return action.view();
     },
-    aboutAction: function (req, res) {
-        app.response.view('/home/about.html', res);
+    aboutAction: function (req) {                
+        return action.view();
+    },
+    helloAction:function(req){
+        return action.content('hello world',action.contentType.html);
     }
 };
 
