@@ -1,14 +1,14 @@
-var action=require('snowframework-action');
+var action = require('snowframework-action');
 
-const homeController = {
-    indexAction: function (req) {                        
+const homeController = {    
+    indexAction: function (req) {                
         return action.view();
     },
-    aboutAction: function (req) {                
+    aboutAction: function (req) {
         return action.view();
     },
-    helloAction:function(req){
-        return action.content('hello world',action.contentType.html);
+    helloAction: function (req) {
+        return action.content('hello world', action.contentType.html);
     }
 };
 
