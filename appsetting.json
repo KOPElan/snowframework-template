@@ -1,12 +1,13 @@
 {
     "snowf": {
         "environment": "development", 
-        "port": "9000",
+        "port": "8000",
         "router": {
-            "default": "home", 
-            "error": "/shared/error.html", 
-            "views": "./views", 
-            "root": "./wwwroot" 
+            "default": "home",             
+            "views": "./views",             
+            "root": "./wwwroot",
+            "layout":"./views/shared",
+            "error": "/shared/error.html"
         }
     }
 }
