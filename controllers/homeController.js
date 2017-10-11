@@ -2,7 +2,7 @@ var mvc = require('snowframework-mvc');
 
 const homeController = {
     indexAction: function (req) {
-        var viewModel = {
+        var context = {
             //render by server
             viewbag: {
                 title: 'SnowFramework',
@@ -10,13 +10,13 @@ const homeController = {
                 content: 'A Simple nodeJS Web Framework, these render by server !'
             },
             //render by client
-            prop:{
+            viewModel:{
                 content:'hello vue example!',
                 alert:'these render by client'
             }
         };
         
-        return mvc.action.view(viewModel);
+        return mvc.action.view(context);
     }
 }
 
